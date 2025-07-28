@@ -38,6 +38,9 @@
       "prettier --parser=typescript --write"
     ]
   },
+  "dependencies": {
+    "viewport-mercator-project": "^7.0.4"
+  },
   "devDependencies": {
     "@antv/g": "^5.18.24",
     "@antv/g-canvas": "^1.11.26",

@@ -1,14 +1,9 @@
 /**
  * MapboxService
  */
-import {
-  BaseMapService,
-  IMercator,
-  IViewport,
-  Viewport,
-  type Bounds,
-} from '@antv/l7';
+import { BaseMapService, IMercator, IViewport, type Bounds } from '@antv/l7';
 import * as L from 'leaflet';
+import Viewport from './web-mercator-viewport';
 
 export default class MapService extends BaseMapService<L.Map> {
   public lngLatToMercator(
